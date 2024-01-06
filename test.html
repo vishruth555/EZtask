@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+  <h1 id="timer">25:00</h1>
+  <button id="startButton">Start</button>
+  <button id="resetButton">Reset</button>
+
+  <script>
+    const timerElement = document.getElementById("timer");
+    const startButton = document.getElementById("startButton");
+    const resetButton = document.getElementById("resetButton");
+
+    let time = 25 * 60;
+    let interval;
+
+    function updateTime() {
+      const minutes = Math.floor(time / 60);
+      const seconds = time % 60;
+      timerElement.textContent = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+    }
+
+    function startTimer() {
+      interval = setInterval(() => {
+        if (time > 0) {
+          time--;
+          updateTime();
+        } else {
+          clearInterval(interval);
+          alert("Time's up!");
+        }
+      }, 1000);
+    }
+
+    function resetTimer() {
+      clearInterval(interval);
+      time = 25 * 60;
+      updateTime();
+    }
+
+    startButton.addEventListener("click", startTimer);
+    resetButton.addEventListener("click", resetTimer);
+  </script>
+</body>
+</html>

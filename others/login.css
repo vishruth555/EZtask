@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: rgb(67, 49, 108);
+    font-family: 'Montserrat', sans-serif;
+    color: beige;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 27px;
+}
+img {
+    border-radius: 100%;
+    margin: 50px;
+}
+h2 {
+    text-align: right;
+    font-size: 20px;
+    margin: 20px;
+}
+.col-4 {
+    position: relative;
+    right: 50px;
+    height: 35px;
+    width: 300px;
+}

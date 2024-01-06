@@ -1,0 +1,118 @@
+body {
+    background-color: #413543;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 10%;
+    overflow: hidden;
+}
+
+.top {
+    margin-bottom: 3%;
+    font-size: 3rem;
+    color: #F0EB8D;
+    text-shadow: 0 0px 60px #a975e9;
+    animation: opacity 0.5s;
+}
+
+.container {
+    margin: auto;
+    padding: 4rem;
+    background-color: #8F43EE;
+    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    box-shadow: 0px 0px 60px black;
+    color: #29212b;
+    /* background-image: url(../photos/bob-fix.gif); */
+    animation: opacity 1s ease-in;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#timer {
+    font-size: 6rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    position: absolute;
+    color: #F0EB8D;
+    cursor: pointer;
+    animation: opacity 3s ease-in-out;
+}
+.btn:hover {
+    color: #f5f2bb;
+    box-shadow: 0px 0px 100px #f5f2bb;
+}
+#start {
+    left: 6rem;
+}
+#reset {
+    right: 6rem;
+}
+#stop {
+    left: 6rem;
+    animation-duration: 1s;
+}
+.hidden {
+    display: none;
+}
+.cycles {
+    position: relative;
+    top: 10rem;
+    color: #954c95;
+}
+
+img {
+    width: 10rem;
+}
+.fairy1 {
+    position: absolute;
+    left: -15rem;
+    bottom: 30px;
+    max-width: 10rem;
+    z-index: 10;
+    animation: car1 25s linear infinite;
+}
+@keyframes car1 {
+    0%{
+        transform: translateX(0);
+    }
+    90%,100%{
+        transform: translateX(120vw);
+    }
+}
+.fairy2 {
+    position: absolute;
+    right: -10rem;
+    bottom: 30px;
+    max-width: 10rem;
+    animation: car2 40s linear infinite;
+}
+@keyframes car2 {
+    0%{
+        transform: translateX(0) rotatey(180deg);
+    }
+    90%,100%{
+        transform: translateX(-120vw) rotatey(180deg);
+    }
+}
+
+.shadow {
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    background-color: #F0EB8D;
+    filter: blur(30px);
+}

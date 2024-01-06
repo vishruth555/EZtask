@@ -1,0 +1,36 @@
+                <!-- <div class="box" id="box-1">
+                    <div class="row upper">
+                        <input class="col cb" type="checkbox" name="box-1">
+                        <h3 class="col tk">Complete Math HW</h3>
+                        <h3 class="col te">time:3:00pm-5:00pm</h3>
+                    </div>
+                    <div class="row justify-content-center lower">
+                        <h4 class="col-sm-2">Study</h4>
+                        <h4 class="col-sm-2">Personal</h4>
+                        <h4 class="col-sm-2">Important</h4>
+                    </div>
+                </div> -->
+                <!-- <div class="box" id="box-2">
+                    <div class="row upper">
+                        <input class="col cb" type="checkbox" name="box-2">
+                        <h3 class="col tk">Prepare Report</h3>
+                        <h3 class="col te">time: <span class="ct">choose time</span> </h3>
+                    </div>
+                    <div class="row justify-content-center lower">
+                        <h4 class="col-sm-2">Events</h4>
+                        <h4 class="col-sm-2">BIT club</h4>
+                        <h4 class="col-sm-2">Important</h4>
+                    </div>
+                </div>
+                <div class="box" id="box-3">
+                    <div class="row upper">
+                        <input class="col cb" type="checkbox" name="box-3">
+                        <h3 class="col tk">smash ur gf</h3>
+                        <h3 class="col te">time: <span class="ct">choose time</span> </h3>
+                    </div>
+                    <div class="row justify-content-center lower">
+                        <h4 class="col-sm-2">Assignment</h4>
+                        <h4 class="col-sm-2">nothing personal</h4>
+                        <h4 class="urgent col-sm-2">urgent</h4>
+                    </div>
+                </div> -->

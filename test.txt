@@ -1,0 +1,7 @@
+This Pomodoro timer consists of a timer display that shows the remaining time in minutes and seconds, and two buttons to start and reset the timer.
+
+The updateTime() function updates the timer display with the remaining time in minutes and seconds. The startTimer() function sets an interval that updates the time every second and checks if the time is up. If the time is up, the interval is cleared and an alert is displayed. The resetTimer() function clears the interval and sets the time back to the default of 25 minutes.
+
+The event listeners are attached to the start and reset buttons using the addEventListener() method. When the start button is clicked, the startTimer() function is called. When the reset button is clicked, the resetTimer() function is called.
+
+You can customize this timer by adjusting the default time, the alert message, and the button text. You can also add additional functionality, such as pausing and resuming the timer, or adding sound effects.

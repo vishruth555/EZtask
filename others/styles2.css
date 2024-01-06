@@ -1,0 +1,15 @@
+body {
+    background-color: #2b3a55;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+}    
+    
+.left-container {
+    width: 25%;
+    height: auto;
+    overflow: auto;
+    background-color: #16213e;
+    height: auto;
+    padding-bottom: 21%;
+}
